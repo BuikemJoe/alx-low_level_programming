@@ -2,22 +2,20 @@
 
 
 
-/*
- *  * main - Entry point
+/**
+ * main - Entry point
  *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *
+ *  Return: Always zero (Success)
  */
 
 int main(void)
-
+/*
+ * initializing the entry point
+ */
 {
 
-		puts("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 
-			return (0);
+	return (0);
 
 }
