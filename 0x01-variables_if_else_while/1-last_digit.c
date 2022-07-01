@@ -3,8 +3,9 @@
 #include <stdio.h>
 /**
  * main - main block
- * Desc: Comparing given couple of numbers with random input of numbers
- * Return: 0
+ * Desc: printing of last digits of random numbers; and comparing them with a given set of numbers.
+ *
+ * Return: 0 (success)
  */
 int main(void)
 {
@@ -16,11 +17,10 @@ int main(void)
 	last = n % 10;
 
 	if (last > 5)
-		printf("Last digit of %i is %i and is greater than 5\n", n, last);
-	else if (last == 0)
-		printf("Last digit of %i is %i and is 0\n", n, last);
-	else if (last < 6 && last != 0)
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last);
-
+		printf("Last digit of %d is %d and is greater than 5\n", n, last);
+	else if(last == 0)
+		printf("Last digit of %d is %d and is 0\n", n, last);
+	else if(last < 6 && last != 0)
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last);
 	return (0);
 }
