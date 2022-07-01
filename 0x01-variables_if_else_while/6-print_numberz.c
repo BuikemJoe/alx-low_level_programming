@@ -12,7 +12,7 @@ int main(void)
 
 	for (c = 48; c <= 57; c++)
 	{
-		putchar(ch);
+		putchar(c);
 	}
 	putchar(10); /* this is an ascii code for new line*/
 	return (o);
