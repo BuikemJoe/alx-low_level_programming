@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Desc: To get a random number, print the number, and specify whether the number is positive, negative or a zero.
+ * Desc: To print random numbers, and specify their status.
  * Return: 0 (success)
  */
 int main(void)
