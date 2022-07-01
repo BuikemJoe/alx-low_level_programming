@@ -6,8 +6,8 @@
  * Return: 0 (success)
  */
 int main(void)
-int x;
 {
+	int x;
 	for (x = 97; x <= 122; x++)
 	{
 		putchar(ch);
