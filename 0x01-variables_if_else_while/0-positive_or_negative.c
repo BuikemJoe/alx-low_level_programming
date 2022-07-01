@@ -6,6 +6,7 @@
  * main - main block
  * Desc: Get a random number to be printed - display if the number is
  * positive, negative or a zero.
+ *
  * Return : 0
  */
 
