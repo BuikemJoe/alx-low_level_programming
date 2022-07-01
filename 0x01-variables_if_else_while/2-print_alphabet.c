@@ -8,6 +8,7 @@
 int main(void)
 {
 	int x;
+
 	for (x = 97; x <= 122; x++)
 	{
 		putchar(ch);
