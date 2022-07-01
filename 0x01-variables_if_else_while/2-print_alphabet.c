@@ -2,17 +2,16 @@
 
 /**
  * main - main block
- * Desc: To print the English alphabets in lowercase, followed by a new line
- * Return: 0
+ * Desc:  printing the alphabet in lowercase, followed by a new line
+ * Return: 0 (success)
  */
 int main(void)
+int alpha;
 {
-	int alph
-	for(alph = 'A'; alph <= 'X'; alph++)
+	for(alpha = 97; alpha <= 122; alpha ++)
 	{
-		putchar(tolower(alph))
+		putchar(ch);
 	}
-	putchar(10); /*This is an ASCII code for new line
-
+	putchar(10);	/*This is an ASCII code for new line*/
 	return (0);
 }
