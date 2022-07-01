@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Desc: a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+ * Desc: a program that prints all single digit numbers of base 10.
  * Return: 0 (success)
  */
 int main(void)
