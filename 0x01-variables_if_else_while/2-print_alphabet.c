@@ -11,7 +11,7 @@ int main(void)
 
 	for (x = 97; x <= 122; x++)
 	{
-		putchar(ch);
+		putchar(x);
 	}
 	putchar(10);	/*This is an ASCII code for new line*/
 	return (0);
