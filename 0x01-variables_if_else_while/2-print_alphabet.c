@@ -5,8 +5,8 @@
  * Desc: To print the English alphabets in lowercase, followed by a new line
  * Return: 0
  */
-int main(x = 'A'; x <= 'Z'; x++)
+int main (void)
 {
-	putchar(tolower(x));
-	return (0);
+	for(int x = 'A'; x <= 'Z'; x++)
+		putchar(tolower(x))
 }
