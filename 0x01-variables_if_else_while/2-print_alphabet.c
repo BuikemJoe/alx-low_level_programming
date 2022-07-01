@@ -6,9 +6,9 @@
  * Return: 0 (success)
  */
 int main(void)
-int alpha;
+int c;
 {
-	for(alpha = 97; alpha <= 122; alpha ++)
+	for(c = 97; c <= 122; c++)
 	{
 		putchar(ch);
 	}
