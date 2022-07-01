@@ -6,5 +6,7 @@
  * Return: 0
  */
 int main(x = 'A'; x <= 'Z'; x++)
+{
 	putchar(tolower(x));
 	return (0);
+}
