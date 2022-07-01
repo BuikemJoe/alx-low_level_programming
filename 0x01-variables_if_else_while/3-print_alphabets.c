@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
  * main - main block
- * Desc: a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
- * Return: 0 (always)
+ * Desc: a program that prints the alphabet in lowercase and then in uppercase.
+ * Return: 0 (success)
  */
 int main(void)
 {
 	int ch;
+
 	for (ch = 97; ch <= 122; ch++)
 	{
 		putchar(ch);
@@ -19,4 +20,3 @@ int main(void)
 
 	return (0);
 }
-
