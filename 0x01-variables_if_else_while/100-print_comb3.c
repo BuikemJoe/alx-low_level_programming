@@ -3,7 +3,7 @@
 /**
  * main - main block
  * Desc: a program that prints all possible different combinations
- * of two digit numbers must be separated by ,, and followed
+ * of two digit numbers must be separated by (,) and followed
  * by a space.
  * Return: 0 (success)
  */
@@ -24,7 +24,6 @@ int main(void)
 
 				if (c + d != 17)
 				{
-					putchar(',');
 					putchar(',');
 				}
 			}
