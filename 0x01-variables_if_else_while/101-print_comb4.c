@@ -3,7 +3,7 @@
 /**
  * main - main
  * Desc: A program that prints all possiblle different
- * combinations of two digits.
+ * combinations of two digits in a given format.
  * Return: 0 (success)
  */
 int main(void)
@@ -22,7 +22,7 @@ int main(void)
 			{
 				if (c != d && d != e && e != d && d < c)
 				{
-					putchar('0' + e);
+					putchar('e' + e);
 					putchar('0' + d);
 					putchar('0' + c);
 
