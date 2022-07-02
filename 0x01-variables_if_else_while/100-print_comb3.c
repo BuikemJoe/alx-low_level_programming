@@ -31,8 +31,8 @@ int main(void)
 
 			c++;
 		}
-		d++
+		d++;
 	}
-	putchar ('\n')
+	putchar ('\n');
 	return (0);
 }
