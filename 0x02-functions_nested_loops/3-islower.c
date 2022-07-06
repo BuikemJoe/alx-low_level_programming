@@ -11,9 +11,9 @@ int _islower(int c)
 	int is_lower = 0;
 
 	for (i = 'a'; i <= 'z'; i++);
-	{
-		if (i == c)
-			is_lower = 1;
-	}
+{
+	if (i == c)
+		is_lower = 1;
+}
 	return (is_lower);
 }
