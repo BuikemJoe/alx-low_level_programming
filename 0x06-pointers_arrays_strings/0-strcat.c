@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strcat - concatenating function
@@ -11,10 +12,11 @@
  * Return: void
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
-	int char *a;
-	int char *b;
-
-	_putchar("%s\n", _strcat(char *a, char *b));
+	char greet[35] = "greet";
+	char name[] = "Joe";
+	
+	_strcat(greet, name);
+	_putchar("%s\n", greet);
 }
