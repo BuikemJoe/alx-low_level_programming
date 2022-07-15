@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * cap_string - capitalize words
  * @str: pointer
@@ -21,6 +22,7 @@ char *cap_string(char *str)
 		else
 		{
 			for (ii = 0; sep[ii] != '\0'; ii++)
+			{
 				if (str[i - 1] == sep[ii])
 				{
 					flag = 1;
@@ -28,6 +30,7 @@ char *cap_string(char *str)
 				}
 			}
 		}
+
 		if (flag == 1)
 		{
 			if (str[i] <= 'z' && str[i] >= 'a')
