@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * main - magic code
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
