@@ -20,9 +20,9 @@ unsigned int _strspn(char *s, char *accept)
 				c++;
 				break;
 			}
-			if (!(*--accept))
-				break;
-				accept = t;
+		if (!(*--accept))
+			break;
+		accept = t;
 	}
 	return (c);
 }
