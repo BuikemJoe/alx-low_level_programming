@@ -3,7 +3,7 @@
 /**
  * factorial - factorial of a given number
  * @n: pointer to block of memory to fill
- * Retun: factorial - always return factorial for recursive calls
+ * Return: factorial value
  */
 
 int factorial(int n)
