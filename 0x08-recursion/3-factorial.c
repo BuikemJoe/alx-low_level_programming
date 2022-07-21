@@ -5,7 +5,6 @@
  * @n: pointer to block of memory to fill
  * Retun: factorial
  */
-
 int factorial(int n)
 {
 	if (n == 0)
