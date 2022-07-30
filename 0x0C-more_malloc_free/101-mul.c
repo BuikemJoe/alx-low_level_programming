@@ -58,6 +58,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 /**
  * mul_array - multiply two arrays.
  * @len1: length of array a1.
+ * @a1: array.
  * @a2:  char.
  * @a3: array for result.
  * @lena: length of array a3.
@@ -77,13 +78,14 @@ void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 		k--;
 	}
 
-	while (mul != 0)
-	{
-		mul += a3[k] - '0';
-		a3[k] = (mul % 10) + '0';
-		mul /= 10;
-		k--;
-	}
+		while (mul != 0)
+		{
+			mul += a3[k] - '0';
+			a3[k] = (mul % 10) + '0';
+			mul /= 10;
+			k--;
+		}
+
 	return (a3);
 }
 
