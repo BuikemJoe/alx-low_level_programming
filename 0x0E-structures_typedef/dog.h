@@ -1,4 +1,4 @@
-#ifndef FILE_DOGnb
+#ifndef FILE_DOG
 #define FILE_DOG
 
 /**
