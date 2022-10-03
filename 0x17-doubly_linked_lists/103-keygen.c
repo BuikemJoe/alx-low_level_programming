@@ -60,6 +60,29 @@ int f5(char *usrn, int len)
  *
  * Return: a random char
  */
+int f6(char *usrn)
+{
+	int ch;
+	int vch;
+
+	ch = vch = 0;
+
+	while (vch < *usrn)
+	{
+		ch = rand();
+		vch += 1;
+	}
+
+	return (((unsigned int)ch ^ 229) & 63);
+}
+
+/**
+ * main - Entry point
+ * @argc: arguments count
+ * @argv: arguments vector
+ *
+ * Return: Always 0
+ */
 int main(int argc, char **argv)
 {
 	char keygen[7];
